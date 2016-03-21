@@ -78,6 +78,12 @@
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\custom.css" />
+    <Content Include="img\olofochria_fest.jpg" />
+    <Content Include="img\olofochria_utomhus.jpg" />
+    <Content Include="img\olof_ochria_lokal.jpg" />
+    <Content Include="img\olof_och_ria_pussas.jpg" />
+    <Content Include="img\olof_paris.jpg" />
+    <Content Include="img\ria_hatt.jpg" />
     <Content Include="index.html" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
@@ -90,9 +96,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="img\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
