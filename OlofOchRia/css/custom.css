@@ -14,7 +14,7 @@ a {
 
 a:hover,
 a:focus {
-    color: forestgreen;
+    color: #805980;
 }
 
 p {
@@ -96,7 +96,7 @@ header .header-content .header-content-inner p {
 
 .intro {
 	color: #fff;
-    background-color: yellowgreen;
+    background-color: #805980;
     padding: 70px 0;
     text-align: center;
 }
@@ -169,7 +169,7 @@ header .header-content .header-content-inner p {
 
 .page-footer .contact {
 	padding: 100px 0;
-	background-color: yellowgreen;
+	background-color: #805980;
 	color: #fff;
 	}
 
@@ -202,7 +202,7 @@ header .header-content .header-content-inner p {
 }
 
 .navbar-default .navbar-header .navbar-brand {
-    color: yellowgreen;
+    color: #805980;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -265,12 +265,12 @@ header .header-content .header-content-inner p {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         letter-spacing: 0;
-        color: yellowgreen;
+        color: #805980;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: #331F33;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -338,9 +338,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: yellowgreen;
+    
     color: #fff;
-    background-color: yellowgreen;
+    background-color: #805980;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -352,9 +352,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: limegreen;
-    color: #fff;
-    background-color: limegreen;
+    border-color: #331F33;
+    color: #805980;
+    background-color: #331F33;
 }
 
 .btn-primary:active,
@@ -381,13 +381,13 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: yellowgreen;
-    background-color: yellowgreen;
+    border-color: #331F33;
+    background-color: #331F33;
 }
 
 .btn-primary .badge {
-    color: yellowgreen;
-    background-color: #fff;
+    color: #331F33;
+    background-color: #805980;
 }
 
 
@@ -402,30 +402,30 @@ fieldset[disabled] .btn-primary.active {
 
 ::-moz-selection {
     text-shadow: none;
-    color: #fff;
+    color: #805980;
     background: #222;
 }
 
 ::selection {
     text-shadow: none;
-    color: #fff;
+    color: #805980;
     background: #222;
 }
 
 img::selection {
-    color: #fff;
+    color: #805980;
     background: 0 0;
 }
 
 img::-moz-selection {
-    color: #fff;
+    color: #805980;
     background: 0 0;
 }
 
 .text-primary {
-    color: yellowgreen;
+    color: #331F33;
 }
 
 .bg-primary {
-    background-color: yellowgreen;
+    background-color: #331F33;
 }
