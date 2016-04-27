@@ -66,6 +66,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\blomma.jpg" />
+    <Content Include="img\board.jpg" />
+    <Content Include="js\timer.js" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -90,8 +93,6 @@
     <Content Include="js\custom.js" />
     <Content Include="js\ie10-viewport-bug-workaround.js" />
     <Content Include="js\jquery-1.11.3.min.js" />
-    <Content Include="js\jquery.countdown.js" />
-    <Content Include="js\jquery.countdown.min.js" />
     <Content Include="js\jquery.easing.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>

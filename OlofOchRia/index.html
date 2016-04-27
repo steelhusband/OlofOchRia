@@ -10,6 +10,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     <link href="js/jquery.countdown.js" rel="stylesheet"/>
+    <script src="/bower_components/jquery.countdown/dist/jquery.countdown.js"></script>
+    <script type="text/javascript" src="js/timer.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
 </head>
@@ -26,8 +28,9 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">
-                    <span class="glyphicon glyphicon-fire"></span>
-                    Olof och Ria 2016/08/27
+                    <span class="flowing-text"></span>
+                    Olof och Ria 27.08.2016
+
                 </a>
             </div>
             <!-- Navbar links -->
@@ -59,21 +62,27 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1>Olof och Ria 2016/08/27</h1>
+                <h1>Olof och Ria 27.08.2016</h1>
 
-                <div id="timer"></div>
+                <div id="clockdiv">
+                    <div>
+                        <span class="days"></span>
+                        <div class="smalltext">Dagar</div>
+                    </div>
+                    <div>
+                        <span class="hours"></span>
+                        <div class="smalltext">Timmar</div>
+                    </div>
+                    <div>
+                        <span class="minutes"></span>
+                        <div class="smalltext">Minuter</div>
+                    </div>
+                    <div>
+                        <span class="seconds"></span>
+                        <div class="smalltext">Sekunder</div>
+                    </div>
+                </div>
 
-                <script type="text/javascript">
-                    $("#getting-started")
-                        .countdown("2016/08/27", function (event)
-                        {
-                            $(this).text(
-                                event.strftime('%D days %H:%M:%S')
-                            );
-                        });
-                </script>
-
-                <a href="#" class="btn btn-primary btn-lg">Knapp</a>
             </div>
         </div>
     </header>
@@ -82,20 +91,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <span class="glyphicon glyphicon-apple" style="font-size: 60px"></span>
-                    <h2 class="section-heading">Completely synergize resource taxing relationships</h2>
-                    <p class="text-light">Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+                    <span class="Heading" style="font-size: 60px"></span>
+                    <h2 class="section-heading">Vi gifter oss!</h2>
+                    <p>Denna sida kommer att fyllas på med all den information som Ni kan tänkas behöva inför vårat stundande bröllop. Bokmärk den gärna och kika in med jämna mellanrum.</p>
+                    <p>Glöm heller inte bort att du redan nu kan maila oss för att meddela om Ni har möjlighet att närvara. Skulle Ni även vara i behov av specialkost var god och förmedla detta i Erat svar.</p>
                 </div>
             </div>
         </div>
     </section>
     <!-- Content 1 -->
-    <section class="content">
+    <!--<section class="content">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
                     <img class="img-responsive img-circle center-block" src="img/olofochria_fest.jpg" alt="">
                 </div>
+                    <div class="blommaLeft">
+                        <img class="img-responsive" src="img/blomma.jpg" alt="">
+                    </div>
+
                 <div class="col-sm-6">
                     <h2 class="section-header">Best in Class</h2>
                     <p class="lead text-muted">Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
@@ -104,33 +118,10 @@
 
             </div>
         </div>
-    </section>
-    <!-- Content 2 -->
-    <section class="content content-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <h2 class="section-header">Superior Quality</h2>
-                    <p class="lead text-light">Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
-                    <a href="#" class="btn btn-default btn-lg">Test It</a>
-                </div>
-                <div class="col-sm-6">
-                    <img class="img-responsive img-circle center-block" src="img/olof_paris.jpg" alt="">
-                </div>
+    </section>-->
 
-            </div>
-        </div>
-    </section>
-    <!-- Promos -->
     
-    <!-- Content 3 -->
-    <section class="content content-3">
-        <div class="container">
-            <h2 class="section-header"><span class="glyphicon glyphicon-pushpin text-primary"></span><br> Sanity Check</h2>
-            <p class="lead text-muted">Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
-            <a href="#" class="btn btn-primary btn-lg">Check Now</a>
-        </div>
-    </section>
+
 
     <!-- Footer -->
     <footer class="page-footer">
@@ -138,8 +129,7 @@
         <!-- Contact Us -->
         <div class="contact">
             <div class="container">
-                <h2 class="section-heading">Contact Us</h2>
-                <p><span class="glyphicon glyphicon-earphone"></span><br> Ria: 0738 14 40 93 <br/> Olof: 072 32 54 242</p>
+                <h2 class="section-heading">Kontakt:</h2>
                 <p><span class="glyphicon glyphicon-envelope"></span><br> info@olofochria.se</p>
             </div>
         </div>
@@ -156,6 +146,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/custom.js"></script>
-    <script src="js/jquery.countdown.js"></script>
+    <script src="js/timer.js"></script>
 </body>
 </html>
